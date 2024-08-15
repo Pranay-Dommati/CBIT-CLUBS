@@ -1,14 +1,24 @@
-/wp-content/uploads/ 
-/wp-content/upgrade/ 
-/wp-content/cache/ 
-/wp-content/backup/ 
-/wp-config.php 
-C:\Users\banny\Local Sites\cbitclubs\app\public\wp-content\ai1wm-backups\cbitclubs-local-20240609-122713-59joex.wpress
-C:\Users\banny\Local Sites\cbitclubs\app\public\wp-content\ai1wm-backups\cbitclubs-local-20240609-134243-u699r9.wpress
+# Ignore the wp-config.php file (contains sensitive information)
+app/public/wp-config.php
+
+# Ignore the cache directory
+app/public/wp-content/cache/
+
+# Ignore the upgrade directory
+app/public/wp-content/upgrade/
+
+# Ignore debug logs
+app/public/debug.log
+
+# Ignore .htaccess file
+app/public/.htaccess
+
+# Ignore specific All-in-One WP Migration backup files
+app/public/wp-content/ai1wm-backups/cbitclubs-local-20240609-122713-59joex.wpress
+app/public/wp-content/ai1wm-backups/cbitclubs-local-20240609-134243-u699r9.wpress
+
 C:\Users\banny\Local Sites\cbitclubs\app\public\wp-content\themes\hitchcock
 C:\Users\banny\Local Sites\cbitclubs\app\public\wp-content\themes\twentytwentyfour
 C:\Users\banny\Local Sites\cbitclubs\app\public\wp-content\themes\twentytwentythree
 C:\Users\banny\Local Sites\cbitclubs\app\public\wp-content\themes\twentytwentytwo
-C:\Users\banny\Local Sites\cbitclubs\app\public\wp-content\plugins\duplicate-page
-C:\Users\banny\Local Sites\cbitclubs\app\public\wp-content\plugins\elementor
-
+ 
